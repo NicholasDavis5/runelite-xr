@@ -12,6 +12,18 @@ RuneLite is a free, open source OldSchool RuneScape client. **RuneLite XR** exte
 * **Desktop Mirror:** Includes a dedicated debug window to view/record the headset perspective.
 * **Powered by:** Java, LWJGL, and OpenXR.
 
+## Development Roadmap
+
+| Phase                        | Milestone                 | Status  | Details                                                                     |
+|------------------------------|---------------------------|---------|-----------------------------------------------------------------------------|
+| **Phase 1: Foundation**      | Initialize OpenXR Runtime | DONE    | Launch the VR runtime directly from RuneLite startup using LWJGL            |
+|                              | Basic Environment         | PLANNED | Render a skybox texture to the XR HMD to verify rendering pipeline          |
+| **Phase 2: The Hybrid View** | 2D Window Injection       | PLANNED | Render the live RuneLite game window to a floating 3D plane in XR space     |
+|                              | Scene Debugging           | PLANNED | Iterate through Scene data and render debug geometry at TileID coordinates  |
+| **Phase 3: Interaction**     | Camera Controls           | PLANNED | Implement navigation (rotation/zoom) using 2D inputs translated to 3D space |
+
+See [documents/project-overview.md](documents/project-overview.md) for detailed milestone documentation.
+
 ## Project Layout
 
 - [cache](https://www.google.com/search?q=cache/src/main/java/net/runelite/cache) - Libraries for reading/writing cache files.
