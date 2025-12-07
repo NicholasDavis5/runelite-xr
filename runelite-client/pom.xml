@@ -228,6 +228,27 @@
 			<artifactId>lwjgl-opencl</artifactId>
 		</dependency>
 
+		<!-- lwjgl openxr -->
+		<dependency>
+			<groupId>org.lwjgl</groupId>
+			<artifactId>lwjgl-openxr</artifactId>
+			<version>3.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lwjgl</groupId>
+			<artifactId>lwjgl-openxr</artifactId>
+			<classifier>natives-windows</classifier>
+			<version>3.3.2</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.lwjgl</groupId>
+			<artifactId>lwjgl-openxr</artifactId>
+			<classifier>natives-linux</classifier>
+			<version>3.3.2</version>
+			<scope>runtime</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>net.runelite</groupId>
 			<artifactId>runelite-api</artifactId>
